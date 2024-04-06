@@ -32,4 +32,10 @@ class Store extends Component
 
     }
 
+    public function cancel()
+    {
+        return redirect()->intended('roles/index');
+
+    }
+
 }

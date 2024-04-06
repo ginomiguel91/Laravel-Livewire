@@ -51,4 +51,9 @@ class Store extends Component
         }
     }
 
+    public function cancel()
+    {
+        return redirect()->intended('users/index');
+    }
+
 }

@@ -74,6 +74,7 @@
 
         <div class="card-footer">
             <button type="submit" class="btn btn-info">Save</button>
+            <button wire:click="cancel" class="btn btn-danger">Cancel</button>
             {{-- <a type="submit" href="{{ route(user.index) }}"class="btn btn-default float-right">Cancel</button> --}}
         </div>
 

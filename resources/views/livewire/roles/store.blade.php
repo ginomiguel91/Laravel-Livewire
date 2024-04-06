@@ -17,6 +17,7 @@
 
         <div class="card-footer">
             <button type="submit" class="btn btn-success">Save</button>
+            <button wire:click="cancel" class="btn btn-danger">Cancel</button>
             {{-- <a type="submit" href="{{ route(roles.index) }}"class="btn btn-default float-right">Cancel</button> --}}
         </div>
 
